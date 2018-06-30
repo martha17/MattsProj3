@@ -197,7 +197,7 @@ public class ShapeIcon extends Observable implements Serializable {
 	}
 	
 	public static Map generateIcons(String name) {
-		/*final File folder = new File(name);
+		final File folder = new File(name);
 		
 		for (final File file : folder.listFiles()) {
 			String fileName = file.getName();
@@ -209,7 +209,8 @@ public class ShapeIcon extends Observable implements Serializable {
 			}
 		}
 		
-		return iconList;*/
+		return iconList;
+		/*
                 String fileName = "star.png";
 		String fileType = fileName.substring(fileName.lastIndexOf('.') + 1);
 		if (fileType.equals("png")) {
@@ -234,7 +235,7 @@ public class ShapeIcon extends Observable implements Serializable {
 			ShapeIcon icon = new ShapeIcon("src/project3/" + fileName);
 			iconList.put(icon,fileName);
 		}
-		return iconList;
+		return iconList;*/
 	}
 	
 	public static Map<JLabel, ShapeIcon> getShapeList() {
